@@ -1,0 +1,25 @@
+Challenge A: We’re All Newsies Now
+TL;DR: Create a website showing information for a hypothetical news site.
+Imagine you’re the web editor for ACME News, a news organization that’s redesigning its website. The website includes an overview page and individual pages for each article. Your challenge is to redesign the website to be usable on desktop and mobile devices while maintaining a consistent look and feel.
+The home page should include the following sections:
+Breaking news
+Local news
+International news
+Cooking
+Fact of the day
+The home page must display article snippets for each section. Each snippet must include an article headline (the title), byline (the author), a brief one-sentence blurb. Each snippet may include an (optional) image. Clicking on an article should open a more detailed version of it.
+The breaking news section should display articles. We recommend distinguishing breaking news by emphasizing their timestamps and giving them different layouts than the other articles.
+The local news and international news sections can be formatted as you wish as long as they display a list of news articles.
+The cooking section should display recipes and emphasize images for each. Detailed descriptions are optional for this section.
+The fact of the day should display a single fact formatted like a quote. Try to make it update on refresh, but you are not required to do this.
+The website should follow a consistent style and branding. We’ll be looking at how you theme the website (colors, typography, spacing) along with how responsive the website is on desktop and mobile devices.
+We do not particularly care what frameworks or libraries you use to build this, but the following may help:
+For styling:
+Tailwind CSS
+Bootstrap
+Static website generators:
+Next.js
+Nuxt.js
+Gatsby.js
+We understand that creating a website isn’t trivial, so you can take a few shortcuts. For example, not all links have to be unique, nor does each article have to display unique content. You can display a page with test data (although we’d love to see your sense of humor or style with the actual text you write. As long as it looks good and loosely functions like a news website or blog, you should be proud.
+Happy coding!
