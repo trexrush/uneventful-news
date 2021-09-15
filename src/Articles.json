@@ -1,51 +1,108 @@
-{"sectionlist": [
-        {
-            "header": "Breaking News",
-            "articles": [
-                {
-                    "title": "Moon found to have traces of oil: US to recommence moon landing missions",
-                    "date": "4 hours ago"
-                },
-                {},
-                {},
-                {}
-            ]
-        },
-        {
-            "header": "Local News",
-            "articles": [
-                {},
-                {},
-                {},
-                {}
-            ]
-        },
-        {
-            "header": "International News",
-            "articles": [
-                {},
-                {},
-                {},
-                {}
-            ]
-        },
-        {
-            "header": "Weather",
-            "articles": [
-                {},
-                {},
-                {},
-                {}
-            ]
-        },
-        {
-            "header": "Cooking",
-            "articles": [
-                {},
-                {},
-                {},
-                {}
-            ]
-        }
- 
-]}
+[
+    {
+        "header": "Breaking News",
+        "articles": [
+            {
+                "title": "Moon found to have traces of oil: US to recommence moon landing missions",
+                "date": "4 hours ago"
+            },
+            {
+                "title":"Half human, half cat? Elon Musk's new scientific breakthrough a success",
+                "date":"9 hours ago"
+            }
+        ]
+    },
+    {
+        "header": "Local News",
+        "articles": [
+            {
+                "title":"Local Man eats a turnip, proceeds to spontaneously combust",
+                "date":"5 days ago"
+            },
+            {
+                "title":"Local man discovers the power of eating food",
+                "date":"1 week ago"
+            },
+            {
+                "title":"Local Boat-making club declares independence; Constitution to be written next week",
+                "date":"2 weeks ago"
+            },
+            {
+                "title":"Grandma refuses to bake cookies for grandkids, \"we'll have to throw hands to get a shot at my cookies again\"",
+                "date":"6 days ago"
+            },
+            {
+                "title":"",
+                "date":""
+            }
+        ]
+    },
+    {
+        "header": "International News",
+        "articles": [
+            {
+                "title":"North Carolina to annex South Carolina to form the State or North South",
+                "date":"2 months ago"
+            },
+            {
+                "title":"Editor of local newspaper doesnt realize what International means",
+                "date":"just now"
+            },
+            {
+                "title":"UN Report: \"World Peace to be achieved in 3 months!\"",
+                "date":"2 years ago"
+            }
+        ]
+    },
+    {
+        "header": "Weather",
+        "articles": [
+            {
+                "title":"Tornado composed primarily out of displaced and hungry Sharks set to make landfall on Friday",
+                "date":"Thursday night"
+            },
+            {
+                "title":"\"The California drought is just in your mind\", states crusty old man",
+                "date":"4 days ago"
+            },
+            {
+                "title":"Daily weather recap: still really hot",
+                "date":"5 hours ago"
+            },
+            {
+                "title":"Filler Title",
+                "date":"Filler Timestamp"
+            }
+        ]
+    },
+    {
+        "header": "Cooking",
+        "articles": [
+            {
+                "title":"Gourmet frozen PB & J"
+            },
+            {
+                "title":"Filler Title"
+            },
+            {
+                "title":"Filler Title"
+            },
+            {
+                "title":"Filler Title"
+            }
+        ]
+    },
+    {
+        "header": "Entertainment",
+        "articles": [
+            {
+                "title":"Sega Releases first Console in 22 years in partnership with Soulja Boy, is total flop",
+                "date": "1 week ago"
+            },
+            {
+                "title":"Jake Paul to enter boxing ring with hometown Grandma that didnt make him cookies",
+                "date": "5 days ago"
+            }
+        ]
+    }
+]

@@ -1,14 +1,11 @@
 import React from 'react'
 import Article from './Article';
 
-const Articles = (props) => {
-    return  <div className="articleList"> 
-                {/* Mobile uses normal, PC uses SM */}
-                <div>{props.name}</div>
-                <Article/>
-                <Article/>
-                <Article/>
+const Section = (props) => {
+    return  <div className="section"> 
+                <div className="heading">{props.name}</div>
+                {props.articles.map(ele => <Article title={ele.title} date={ele.date}/>)}
             </div>
 }
 
-export default Articles;
+export default Section;

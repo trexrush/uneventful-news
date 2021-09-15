@@ -1,51 +1,74 @@
 :root {
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(255, 255, 255);
     text-decoration: none;
-    text-transform: uppercase;
-    overflow: hidden;
+    text-transform: capitalize;
+    overflow-x: hidden;
+    font-family: cursive;
+    --textcolor:  black;
 }
 
-.container {
-  width: 100%;
-  height: 100vh;
+.text {
+    font-size: 1em;
+    color: rgb(22, 114, 45);
 }
 
-.slider {
-  width: 100%;
-  height: 100%;
-  display: flex;
+.heading {
+    font-size: 3em;
+    color: rgb(0, 68, 255);
 }
 
-.articleContainer {
-    background-color: rgba(16, 185, 129, 1);
-
+.spaced {
     margin: 10px;
+    padding: 10px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/* individual components */
+
+.article {
+    margin: 10px;
+    padding: 10px;
 
     display: flex;
     place-items: center;
-    height: 250px;
-    width: 90%
+
+    min-height:250px;
+    width: 95%;
 }
 
-.articleList {
-    background-color: rgba(6, 78, 59, 1);
+.section {
+    background-color: rgb(250, 250, 250);
+    border: 2px solid rgb(255, 154, 154);
+    border-radius: 6px;
 
-    padding: 16px;
-    margin: 16px;
+    padding: 10px;
+    margin: 10px;
+
+    overflow-y: auto;
 
     display: flex;
     place-items: center;
     flex-direction: column;
 
-    height: 70%;
-    width: 600px;
+    height: 70vh;
+    width: 500px;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
 }
 
 .fact {
-    background-color: rgb(192, 34, 34);
-}
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
+
 }

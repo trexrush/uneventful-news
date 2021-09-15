@@ -1,8 +1,12 @@
 import React from 'react'
 
-const Article = () => {
-    return  <div className="articleContainer">
-                <h>This is a funny article</h>
+const Article = (props) => {
+    return  <div className="article">
+                <div className="text">
+                    {props.title}
+                    <br/>
+                    {props.date}
+                </div>
             </div>
 }
 
