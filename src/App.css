@@ -1,18 +1,51 @@
 :root {
-    background-color: darkgray;
+    background-color: rgb(204, 204, 204);
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
 }
 
-/* DEBUG CLASSES */
-.border {
-    border-style: solid;
-    border-color: white;
+.container {
+  width: 100%;
+  height: 100vh;
 }
-.green {
-    border-color: green;
+
+.slider {
+  width: 100%;
+  height: 100%;
+  display: flex;
 }
-.blue {
-    border-color: blue;
+
+.articleContainer {
+    background-color: rgba(16, 185, 129, 1);
+
+    margin: 10px;
+
+    display: flex;
+    place-items: center;
+    height: 250px;
+    width: 90%
 }
-.red {
-    border-color: red;
+
+.articleList {
+    background-color: rgba(6, 78, 59, 1);
+
+    padding: 16px;
+    margin: 16px;
+
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+
+    height: 70%;
+    width: 600px;
+}
+
+.fact {
+    background-color: rgb(192, 34, 34);
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }

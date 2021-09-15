@@ -1,8 +1,8 @@
 import React from 'react'
 
 const Article = () => {
-    return  <div className="border blue">
-                This is an informative article
+    return  <div className="articleContainer">
+                <h>This is a funny article</h>
             </div>
 }
 
