@@ -1,8 +1,6 @@
 import './App.css'
 import React, { useState } from 'react';
-// import { BrowserRouter as Router } from 'react-router-dom'
 import styled from 'styled-components'
-import { useDrag } from 'react-use-gesture';
 import { a, useSpring } from '@react-spring/web'
 
 import Section from './components/Articles';
@@ -19,6 +17,9 @@ const Container = styled(a.div)`
 export default function App() {
   return (
     <Container>
+      <a className="title" href="/">
+        Uneventful News
+      </a>
       <Fact/>
       <a.div className="slider">
         {sections.map(ele => <AnimSection name={ele.header} articles={ele.articles}/>)}
@@ -27,11 +28,9 @@ export default function App() {
   );
 }
 // todo: 
-// styling
-// drag
-// tap to expand article
+// react-spring and react-router are unused, ran out of time
 
 // to add in the future:
 // I did not have enought time to do this be I really would have added animations with react-spring and react-use-gesture
 // navbar that jumps to a particular article section
-// interaction with an api of a particular new site / reddit
+// interaction with an api of a particular news site / reddit to fetch random articles instead of using nothing / lorem ipsdum

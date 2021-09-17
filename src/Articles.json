@@ -32,8 +32,12 @@
                 "date":"6 days ago"
             },
             {
-                "title":"",
-                "date":""
+                "title":"Local man found chasing after bear, in search of honey and \"that wacky ol' spring tailed tiger\"",
+                "date":"2 weeks ago"
+            },
+            {
+                "title":"Dad's mysterious 20 year dissapearance resolved: \"I just went out to buy some cigarettes and got lost on the way back\"",
+                "date":"2 hours ago"
             }
         ]
     },
@@ -41,7 +45,7 @@
         "header": "International News",
         "articles": [
             {
-                "title":"North Carolina to annex South Carolina to form the State or North South",
+                "title":"North Carolina to annex South Carolina to form the State of North South",
                 "date":"2 months ago"
             },
             {
@@ -68,10 +72,6 @@
             {
                 "title":"Daily weather recap: still really hot",
                 "date":"5 hours ago"
-            },
-            {
-                "title":"Filler Title",
-                "date":"Filler Timestamp"
             }
         ]
     },
@@ -82,13 +82,10 @@
                 "title":"Gourmet frozen PB & J"
             },
             {
-                "title":"Filler Title"
+                "title":"Cool recipe from that one show you watched"
             },
             {
-                "title":"Filler Title"
-            },
-            {
-                "title":"Filler Title"
+                "title":"Spicy Pita Bread Hamburger"
             }
         ]
     },

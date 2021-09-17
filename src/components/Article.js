@@ -4,7 +4,8 @@ const Article = (props) => {
     return  <div className="article">
                 <div className="text">
                     {props.title}
-                    <br/>
+                </div>
+                <div className="timestamp">
                     {props.date}
                 </div>
             </div>

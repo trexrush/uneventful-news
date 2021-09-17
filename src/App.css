@@ -1,5 +1,5 @@
 :root {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(49, 49, 49);
     text-decoration: none;
     text-transform: capitalize;
     overflow-x: hidden;
@@ -8,13 +8,27 @@
 }
 
 .text {
+    font-size: 1.5em;
+    color: rgb(81, 187, 108);
+    position:relative;
+    top:0;
+    left:0;
+}
+
+.timestamp {
     font-size: 1em;
-    color: rgb(22, 114, 45);
+    color: rgb(81, 187, 108);
+
+    position:relative;
+    bottom:0;
+    right:0;
 }
 
 .heading {
+    text-transform: uppercase;
+    text-align: center;
     font-size: 3em;
-    color: rgb(0, 68, 255);
+    color: rgb(109, 148, 255);
 }
 
 .spaced {
@@ -35,17 +49,17 @@
     margin: 10px;
     padding: 10px;
 
-    display: flex;
-    place-items: center;
+    border: 4px solid rgb(74, 74, 74);
+    border-radius: 8px;
 
-    min-height:250px;
+    min-height:200px;
     width: 95%;
 }
 
 .section {
-    background-color: rgb(250, 250, 250);
-    border: 2px solid rgb(255, 154, 154);
-    border-radius: 6px;
+    background-color: rgb(63, 63, 63);
+    border: 4px solid rgb(255, 97, 97);
+    border-radius: 18px;
 
     padding: 10px;
     margin: 10px;
@@ -70,5 +84,17 @@
 }
 
 .fact {
+    background-color: rgb(56, 68, 136);
+    text-transform: uppercase;
+    color: rgb(224, 255, 47);
+    font-size: 25px;
+    text-align: center;
+}
 
+.title {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: greenyellow;
+    font-size: 80px;
+    text-align: center;
 }
